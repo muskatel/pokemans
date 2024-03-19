@@ -20,4 +20,8 @@ Console.WriteLine(pokemons.Count);
 foreach (Pokemon pokemon in pokemons)
 {
     Console.WriteLine(pokemon);
+    if (pokemon.stats != null)
+    {
+        Console.WriteLine(pokemon.stats.HP);
+    }
 }

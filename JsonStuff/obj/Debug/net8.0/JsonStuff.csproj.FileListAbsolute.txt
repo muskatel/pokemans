@@ -16,3 +16,4 @@
 /Users/craig/Developer/JsonStuff/JsonStuff/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/craig/Developer/JsonStuff/JsonStuff/obj/Debug/net8.0/JsonStuff.csproj.AssemblyReference.cache
 /Users/craig/Developer/JsonStuff/JsonStuff/obj/Debug/net8.0/JsonStuff.csproj.Up2Date
+/Users/craig/Developer/JsonStuff/JsonStuff/obj/Debug/net8.0/JsonStuff.sourcelink.json
