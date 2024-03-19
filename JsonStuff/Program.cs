@@ -19,9 +19,26 @@ Console.WriteLine(pokemons.Count);
 
 foreach (Pokemon pokemon in pokemons)
 {
-    Console.WriteLine(pokemon);
-    if (pokemon.stats != null)
+    if (pokemon.id == 1)
     {
-        Console.WriteLine(pokemon.stats.HP);
+        Console.WriteLine(pokemon);
+        if (pokemon.stats != null)
+        {
+            Console.WriteLine(pokemon.stats.HP);
+        }
+
+        foreach (string[] abils in pokemon.profile.ability)
+        {
+            Console.Write(abils[0] + " ");
+            if (abils[1] == "true")
+            {
+                Console.Write("✅ \n"); 
+            }
+            else
+            {
+                Console.Write("❌ \n"); 
+            }
+        }
+        
     }
 }
